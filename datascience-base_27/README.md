@@ -26,7 +26,10 @@ This is an image adapted from one created by [wise.io](http://wise.io) datascien
 
 This Miniconda2-based image is hosted at the **Docker Hub**. You can grab it with:
 
-**Python 2.6=7.11:**    ```docker pull accelai/datascience-base_27```
+**Python 2.6=7.11:**    
+```
+docker pull accelai/datascience-base_27
+```
 
 ### Start the container via terminal/command prompt:
 

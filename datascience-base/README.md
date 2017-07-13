@@ -1,37 +1,41 @@
-Accel.ai Basic Deep Learning & AI Docker Image 
-======================
+Accel.ai : Deep Learning & AI  Docker Image
+================================================================
+
 
 Docker container with basic Python data science, Deep Learning, and AI tools:
-  - graphviz 
-  - jupyter 
-  - keras 
-  - pandas 
-  - pytorch 
-  - scipy (numpy & matplotlib)
-  - scikit-learn 
-  - seaborn 
-  - tensorflow 
-  - theano 
+  - _graphviz_ 
+  - _jupyter_ 
+  - _keras_ 
+  - _pandas_ 
+  - _pytorch_ 
+  - _scipy (numpy & matplotlib)_
+  - _scikit-learn_ 
+  - _seaborn_ 
+  - _tensorflow_ 
+  - _theano_ 
 
  This is an image adapted from one created by [wise.io](http://wise.io) datascience [git repo](https://github.com/wiseio/datascience-docker),
  with the underlying python distribution coming from [Continuum/Miniconda3](http://continuum.io)
 
-## Getting up and running
+## Getting up and running##
 
-1)  Install Docker [Docker for Mac](https://www.docker.com/docker-mac) [Docker for Windows](https://www.docker.com/docker-windows)
+1)  Install Docker 
+    - [*Docker for Mac*](https://www.docker.com/docker-mac) 
+    - [*Docker for Windows*](https://www.docker.com/docker-windows)
 2)  Start Docker 
 3)  Run the following commands in the terminal/command prompt to start the container:
+
     `docker pull accelai/julyworkshop`
     `docker run -it accelai/julyworkshop /bin/bash`
     
-    *If you would rather have a Jupyter Notebook interface, run the following command in the terminal/command prompt:*
+    **_If you would rather have a Jupyter Notebook interface, run the following command in the terminal/command prompt:_**
 
     `docker run -it -p 8888:8888 accelai:julyworkshop /bin/bash -c "/opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root"`
 
     This will produce a message in the terminal about where Jupyter is running.  You can then view the Jupyter Notebook by opening that URL in your browser.
 
 
-## Using the Container Directly##
+## Using the Container Directly
 
 Once you're running the container, you can get a terminal window inside if needed:
 

@@ -30,12 +30,13 @@ This Miniconda2-based image is hosted at the **Docker Hub**. You can grab it wit
 
 ### Start the container via terminal/command prompt:
 
-   ```docker run -it accelai/datascience-docker_27/bin/bash
-   ```
+```
+docker run -it accelai/datascience-docker_27 /bin/bash
+```
     
 ### Alternatively, start a Jupyter Notebook interface:
 
-   ```
+```
 docker run -it -p 8888:8888 accelai/datascience-docker_27 /bin/bash -c "/opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root"
 ```
 
@@ -43,7 +44,9 @@ docker run -it -p 8888:8888 accelai/datascience-docker_27 /bin/bash -c "/opt/con
 
 Once you're running the container, you can get a terminal window inside if needed:
 
-```docker exec -it <container_name> bash```
+```
+docker exec -it <container_name> bash
+```
 
 Here you can add new functionality if you need it. **_E.g._**, 
 
@@ -74,7 +77,9 @@ This image looks for `/key.pem`. If it doesn't exist a self signed certificate w
 
 **Example:**
 
-```cat hostname.key hostname.pub.cert intermidiate.cert > hostname.pem```
+```
+cat hostname.key hostname.pub.cert intermidiate.cert > hostname.pem
+```
 
 Then you would mount this file to the docker container:
 

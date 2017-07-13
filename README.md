@@ -14,12 +14,14 @@ If you haven't used Docker before, a good place to start is the [Docker User Gui
 
 ## Getting Started ##
 
-The Miniconda3-based image is hosted at the **Docker Hub**. You can grab it with:
+The Miniconda3-based and Miniconda2-based images are hosted at the **Docker Hub**. You can grab them with:
 
 ```
 docker pull accelai/datascience-base
+or
+docker pull accelai/datascience-base_27
 ```
 
-The **README.md** in `datascience-base/` gives an overview of how to use that image to run a container locally, and start a Jupyter server for Notebooks.
+The **README.md** in `datascience-base/` and `datascience-base_27`give an overview of how to use those images to run containers locally, and start a Jupyter server for Notebooks.
 
 

@@ -1,6 +1,6 @@
 # datascience-docker
 
-Containers and material for the **Accel.ai Demystifying Deep Learning and AI Workshop _July 21st - 23rd, 2017._**
+Containers and material for the **Accel.ai Demystifying Deep Learning and AI Workshop** _July 21st - 23rd, 2017._
 
 
 

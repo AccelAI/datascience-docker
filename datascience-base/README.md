@@ -25,13 +25,17 @@ This is an image adapted from one created by [wise.io](http://wise.io) datascien
 
 This Miniconda3-based image is hosted at the **Docker Hub**. You can grab it with:
 
-**Python 3.6.1:**    ```docker pull accelai/datascience-base```
+**Python 3.6.1:**    
+```
+docker pull accelai/datascience-base
+```
 
 
 ### Start the container via terminal/command prompt:
 
-   ```docker pull accelai/datascience-docker```
-   ```docker run -it accelai/datascience-docker /bin/bash```
+   ```
+   docker run -it accelai/datascience-docker /bin/bash
+   ```
     
 ### Alternatively, start a Jupyter Notebook interface:
 

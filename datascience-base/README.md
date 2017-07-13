@@ -36,7 +36,15 @@ Once you're running the container, you can get a terminal window inside if neede
 
 ```docker exec -it <container_name> bash```
 
-Here you can add new functionality if you need it. **_E.g._**, ```apt-get package-name```  **_or_** ```conda install <package name>``` **_or_** ```pip install requirements.txt```
+Here you can add new functionality if you need it. **_E.g._**, 
+
+```
+
+apt-get package-name
+conda install <package name>
+pip install requirements.txt
+
+```
 
 _**Note**:  this will only add functionality into the container itself, not the image. If you want to use this new functionality, you'll want to add it to the image by hacking the **Dockerfile**._
 
@@ -46,7 +54,7 @@ _**Note**:  this will only add functionality into the container itself, not the 
 Clone the repository from whence this image was made, make changes then build the container:
 
 ```
-git clone <repo name>
+git clone https://github.com/AccelAI/datascience-docker/
 cd datascience-docker
 docker build -t  datascience-base .
 docker run -d -p 80:8888 datascience-base

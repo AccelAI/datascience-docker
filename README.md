@@ -8,15 +8,15 @@ If you haven't used Docker before, a good place to start is the [Docker User Gui
 
 ### Setup ###
 
-For those running a *linux* distro, you should be able to _apt-get/yum docker_. 
+For those running a **_linux_** distro, you should be able to `apt-get/yum docker`. 
 
-For those on *OS X*, you'll need to check out [Docker for Mac](https://www.docker.com/docker-mac)
+For those on **_OS X_**, you'll need to check out [Docker for Mac](https://www.docker.com/docker-mac)
 
-For those on *Windows*, you'll want to go to [Docker for Windows](https://www.docker.com/docker-windows)
+For those on **_Windows_**, you'll want to go to [Docker for Windows](https://www.docker.com/docker-windows)
 
 ## Getting Started ##
 
-The Miniconda3-based image is hosted at the Docker Hub. You can grab it:
+The Miniconda3-based image is hosted at the **Docker Hub**. You can grab it with:
 
 ```
 docker pull accelai/datascience-base

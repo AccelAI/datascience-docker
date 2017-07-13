@@ -9,7 +9,9 @@ If you haven't used Docker before, a good place to start is the [Docker User Gui
 ### Setup ###
 
 For those running a *linux* distro, you should be able to _apt-get/yum docker_. 
+
 For those on *OS X*, you'll need to check out [Docker for Mac](https://www.docker.com/docker-mac)
+
 For those on *Windows*, you'll want to go to [Docker for Windows](https://www.docker.com/docker-windows)
 
 ## Getting Started ##

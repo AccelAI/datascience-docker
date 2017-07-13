@@ -1,4 +1,4 @@
-# Accel.ai : Python 2.7.11 Deep Learning & AI  Image
+# Python 2.7.11 Deep Learning & AI  Image
 
 This is an image adapted from one created by [wise.io](http://wise.io) datascience [git repo](https://github.com/wiseio/datascience-docker), with the underlying python distribution coming from [Continuum/Miniconda3](http://continuum.io).  We've pre-installed the following to get you started:
 

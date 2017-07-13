@@ -17,7 +17,7 @@ Docker container with basic Python data science, Deep Learning, and AI tools:
  This is an image adapted from one created by [wise.io](http://wise.io) datascience [git repo](https://github.com/wiseio/datascience-docker),
  with the underlying python distribution coming from [Continuum/Miniconda3](http://continuum.io)
 
-## Getting up and running##
+## Getting up and running
 
 1)  Install Docker 
     - [*Docker for Mac*](https://www.docker.com/docker-mac) 

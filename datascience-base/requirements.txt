@@ -1,0 +1,5 @@
+plotly
+##The following have been left out for now to save space:
+#gensim
+#hypothesis
+#pydot 

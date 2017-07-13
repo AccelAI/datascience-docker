@@ -1,6 +1,6 @@
 # datascience-docker
 
-Containers and material for the Accel.ai Demystifying Deep Learning and AI Workshop July 21st - 23rd, 2017.
+Containers and material for the **Accel.ai Demystifying Deep Learning and AI Workshop _July 21st - 23rd, 2017._**
 
 
 
@@ -16,9 +16,15 @@ If you haven't used Docker before, a good place to start is the [Docker User Gui
 
 The Miniconda3-based and Miniconda2-based images are hosted at the **Docker Hub**. You can grab them with:
 
+
+**Python 3.6.1**
 ```
 docker pull accelai/datascience-base
-or
+```
+
+**Python 2.7.11**
+
+```
 docker pull accelai/datascience-base_27
 ```
 

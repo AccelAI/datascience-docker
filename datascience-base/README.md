@@ -21,14 +21,21 @@ This is an image adapted from one created by [wise.io](http://wise.io) datascien
 - For those on **_OS X_**, you'll need to check out [Docker for Mac](https://www.docker.com/docker-mac) || [*Docker Toolbox for Mac (Legacy)*](https://docs.docker.com/toolbox/toolbox_install_mac/) 
 - For those on **_Windows_**, you'll want to go to [Docker for Windows](https://www.docker.com/docker-windows) || [*Docker for Windows 7 (Legacy)*](https://docs.docker.com/toolbox/toolbox_install_windows/)
 
+### Pull the Docker Image You Need
+
+This Miniconda3-based image is hosted at the **Docker Hub**. You can grab it with:
+
+**Python 3.6.1:**    ```docker pull accelai/datascience-base```
+
+
 ### Start the container via terminal/command prompt:
 
    ```docker pull accelai/datascience-docker```
-    ```docker run -it accelai/datascience-docker /bin/bash```
+   ```docker run -it accelai/datascience-docker /bin/bash```
     
 ### Alternatively, start a Jupyter Notebook interface:
 
-   ```
+```
 docker run -it -p 8888:8888 accelai/datascience-docker /bin/bash -c "/opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root"
 ```
 

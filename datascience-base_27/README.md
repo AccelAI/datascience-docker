@@ -30,8 +30,8 @@ This Miniconda2-based image is hosted at the **Docker Hub**. You can grab it wit
 
 ### Start the container via terminal/command prompt:
 
-   ```docker pull accelai/datascience-docker_27```
-   ```docker run -it accelai/datascience-docker_27/bin/bash```
+   ```docker run -it accelai/datascience-docker_27/bin/bash
+   ```
     
 ### Alternatively, start a Jupyter Notebook interface:
 

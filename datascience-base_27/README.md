@@ -19,8 +19,8 @@ This is an image adapted from one created by [wise.io](http://wise.io) datascien
 ### Install Docker
 
  - For those running a **_linux_** distro, you should be able to `apt-get/yum docker`. 
- - For those on **_OS X_**, you'll need to check out [Docker for Mac](https://www.docker.com/docker-mac) || [*Docker Toolbox for Mac (Legacy)*](https://docs.docker.com/toolbox/toolbox_install_mac/) 
- - For those on **_Windows_**, you'll want to go to [Docker for Windows](https://www.docker.com/docker-windows) || [*Docker for Windows 7 (Legacy)*](https://docs.docker.com/toolbox/toolbox_install_windows/
+ - For those on **_OS X_**, you'll need to check out [Docker for Mac](https://www.docker.com/docker-mac) || [Docker Toolbox for Mac (Legacy)](https://docs.docker.com/toolbox/toolbox_install_mac/) 
+ - For those on **_Windows_**, you'll want to go to [Docker for Windows](https://www.docker.com/docker-windows) || [Docker for Windows 7 (Legacy)](https://docs.docker.com/toolbox/toolbox_install_windows/
 
 ### Start the container via terminal/command prompt:
 

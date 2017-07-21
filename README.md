@@ -19,13 +19,13 @@ The Miniconda3-based and Miniconda2-based images are hosted at the **Docker Hub*
 
 **Python 3.6.1**
 ```
-docker pull accelai/datascience-base
+docker pull accelai/datascience-docker
 ```
 
 **Python 2.7.11**
 
 ```
-docker pull accelai/datascience-base_27
+docker pull accelai/datascience-docker_27
 ```
 
 The **README.md** in `datascience-base/` and `datascience-base_27`give an overview of how to use those images to run containers locally, and start a Jupyter server for Notebooks.

@@ -27,7 +27,7 @@ This Miniconda3-based image is hosted at the **Docker Hub**. You can grab it wit
 
 **Python 3.6.1:**    
 ```
-docker pull accelai/datascience-base
+docker pull accelai/datascience-docker
 ```
 
 
@@ -67,8 +67,8 @@ _**Note**:  this will only add functionality into the container itself, not the 
 Clone the repository from whence this image was made, make changes then build the container:
 
 ```
-git clone https://github.com/AccelAI/datascience-docker/
-cd datascience-docker
+git clone https://github.com/AccelAI/datascience-base/
+cd datascience-base
 docker build -t  datascience-base .
 docker run -d -p 80:8888 datascience-base
 ```

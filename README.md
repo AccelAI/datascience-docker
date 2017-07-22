@@ -28,6 +28,6 @@ docker pull accelai/datascience-docker
 docker pull accelai/datascience-docker_27
 ```
 
-The **README.md** in `datascience-base/` and `datascience-base_27`give an overview of how to use those images to run containers locally, and start a Jupyter server for Notebooks.
+The **README.md** in [datascience-base/](https://github.com/AccelAI/datascience-docker/tree/master/datascience-base) and [datascience-base_27](https://github.com/AccelAI/datascience-docker/tree/master/datascience-base_27) give an overview of how to use those images to run containers locally, and start a Jupyter server for Notebooks.
 
 
